@@ -1,0 +1,75 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit1.png",
+      "result": "0"
+    },
+    {
+      "id": 2,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit2.png",
+      "result": "0"
+    },
+    {
+      "id": 3,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit3.png",
+      "result": "0"
+    },
+    {
+      "id": 4,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit4.png",
+      "result": "0"
+    },
+    {
+      "id": 5,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit5.png",
+      "result": "0"
+    },
+    {
+      "id": 6,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit6.png",
+      "result": "0"
+    },
+    {
+      "id": 7,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit7.png",
+      "result": "0"
+    },
+    {
+      "id": 8,
+      "name": "Mango people t-shirt",
+      "price": "52",
+      "quantity": "1",
+      "src": "../img/unit8.png",
+      "result": "0"
+    }
+  ],
+  "cart": [],
+  "user": [
+    
+  ],
+  "comments": [
+    
+  ]
+}

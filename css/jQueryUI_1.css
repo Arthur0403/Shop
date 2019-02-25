@@ -1,0 +1,58 @@
+
+  form{
+    width: 375px;
+    border: 1px solid #f16d7f;
+    /* background-color: lightgrey; */
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
+    margin: 0 auto;
+  }
+  legend{
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f16d7f;
+  }
+  input{
+    margin: 5px 0 10px 0;
+    height: 20px;   
+   }
+
+   #citiesField{
+     margin-right: 100px;
+   }
+
+   select{
+    margin: 5px 0 10px 0;
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+     width: 175px;
+          
+   }
+   
+   #name, #age, #email, #password, #phone, #comment, #cities, #send, option {
+     border-radius: 5px;
+   }
+   textarea, #cities, #send{
+      margin: 5px 0 10px 0;
+   }
+
+   #send{
+    width: 120px;
+    height: 30px;
+   }
+
+   .error{
+       border: 1px solid red;
+   }
+
+   .errList{
+     color:red;
+   }
+
+   .valid{
+    border: 1px solid lightgreen;
+}

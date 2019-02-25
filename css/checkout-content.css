@@ -1,0 +1,125 @@
+.checkout-content {
+  margin-bottom: 93px; }
+
+.checkout-content__item {
+  width: 100%;
+  height: 88px;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #e8e8e8;
+  transition: 1s height ease-in; }
+  .checkout-content__item:hover {
+    height: 569px; }
+
+.item__content {
+  display: flex;
+  ustify-content: space-between; }
+
+.item__left {
+  margin-top: 19px;
+  margin-left: 35px;
+  width: 246px; }
+
+.item__right {
+  margin-top: 19px;
+  margin-left: 291px;
+  width: 570px; }
+
+.item__header_main {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.item__header {
+  color: #222222;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+
+.item__paragraph {
+  color: #b3b2b2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.fa-angle-double-right {
+  margin-right: 4px; }
+
+.item__radio {
+  color: #222222;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 14px;
+  vertical-align: bottom; }
+
+.item__radioblock {
+  margin-top: 34px;
+  margin-bottom: 34px; }
+
+.item__btn {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: border 1s; }
+  .item__btn:hover {
+    border: 1px solid #f16d7f; }
+
+.form__header {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 16px; }
+  .form__header span {
+    color: red; }
+
+.form__area {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 390px;
+  height: 45px;
+  margin-bottom: 6px; }
+
+form > p {
+  color: #ff0d0d;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 23px; }
+
+.item__link_forgot {
+  color: #222222;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: 32px;
+  transition: color 1s; }
+
+.item__link_forgot:hover {
+  color: grey; }
+
+.right__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 32px; }
+  .right__footer .item__btn {
+    margin-top: 0; }
+
+/*# sourceMappingURL=checkout-content.css.map */

@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Single Page</title>
+                <!--    <link rel="stylesheet" href="../css/normalize.css">-->
+                <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+            
+                <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+                <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                <!--[if lt IE 9]>
+                  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+                  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                <![endif]-->
+                <link href="../web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+                <link rel="stylesheet" href="../css/style.css">
+                <link rel="stylesheet" href="../css/input.css">
+                 <script src="../css/modernizr-custom.js"></script>
+                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+            <script src="../js/slick.min.js"></script>
+            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+            <link rel="stylesheet" href="../js/slick.css">
+            <link rel="stylesheet" href="../js/slick-theme.css">
+                     
+                     <link rel="stylesheet" href="../css/magnific.css">
+                     <script src="../js/magnific.js"></script>
+                     <script src="../js/js.js"></script>
+                 
+            </head>
+<body>
+    <div class="common-container">
+
+            <header>
+                    <div class="container header-flex">
+                        <div class="header-left">
+                            <a href="index.html" class="logo"><img src="../img/logo.png" alt="logo"><span>BRAN<span>D</span></span></a>
+        
+        
+        
+                            <div class="btn-group browse-list">
+                                <button type="button" class="btn btn-default dropdown-toggle btn_browse" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Browse <span class="caret"></span>
+          </button>
+                                <ul class="dropdown-menu dm_browse">
+                                    <li><a href="#">Women</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">Sweaters/Knits</a></li>
+                                    <li><a href="#">Jackets/Coats</a></li>
+                                    <li><a href="#">Blazers</a></li>
+                                    <li><a href="#">Denim</a></li>
+                                    <li><a href="#">Leggings/Pants</a></li>
+                                    <li><a href="#">Skirts/Shorts</a></li>
+                                    <li><a href="#">Accessories </a></li> <br>
+        
+                                    <li><a href="#">Men</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tees/Tank tops</a></li>
+                                    <li><a href="#">Shirts/Polos</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Sweatshirts/Hoodies</a></li>
+                                    <li><a href="#">Blazers</a></li>
+                                    <li><a href="#">Jackets/vests</a></li>
+        
+        
+                                </ul>
+                            </div>
+        
+        
+        
+                            <form action="post">
+                                <!--                        <button class="brand-button1">Browse</button> -->
+        
+        
+                                <input class="browse_form" type="text" value="Search for Item..."><button class="btn-search" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+        
+                        <div class="header-right">
+        
+                            <a id="shoppingcart" href="shoppingcart.html" class="image-cart wobble-hor-bottom heartbeat">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a> 
+                            
+                            <!-- <div class="round-two">
+                                2
+                            </div> -->
+                            
+                            <div class="cart-mega-menu"></div>
+                            <!-- <div class="cart-mega-menu">
+                             
+                             <div class="triangle"></div>
+                             <div class="square"></div>
+                              
+                             <div class="mega-box">
+                                 
+                                 <div class="cart-product1"> 
+                                 
+                                <div class="left-img">
+                                    
+                                     <img src="../img/product-cart1.png" alt="product1">
+                                    
+                                </div>
+                                 
+                                 <div class="cart-product-text">
+                                     
+                                     <h3>rebox zane</h3>
+                                     
+                                     <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                                    
+                                    <p>1 X $250</p>
+                                                                 
+                                 </div>
+                                 
+                                 <div class="cross">
+                                     <a href="#"><i class="fas fa-times-circle"></i></a>
+                                 </div>
+                                 
+                                 </div>
+                                 
+                                 <div class="cart-product2"> 
+                                 
+                                <div class="left-img">
+                                    
+                                     <img src="../img/product-cart2.png" alt="product1">
+                                    
+                                </div>
+                                 
+                                 <div class="cart-product-text">
+                                     
+                                     <h3>rebox zane</h3>
+                                     
+                                     <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                                    
+                                    <p>1 X $250</p>
+                                                                 
+                                 </div>
+                                 
+                                 <div class="cross">
+                                     <a href="#"><i class="fas fa-times-circle"></i></a>
+                                 </div>
+                                 
+                                 </div>
+                                 
+                                 <div class="total">
+                                     
+                                     <div class="left">
+                                     <h2>Total</h2>
+                                 </div>
+                                 
+                                 <div class="right">
+                                     <h2>$500.00</h2>
+                                 </div>
+                                     
+                                 </div>
+                                 
+                                 <div class="cart-product-btns">
+                                     
+                                     <div class="ct-product-btn">
+                                     
+                                     <span>checkout</span>
+                                     
+                                 </div>
+                                 
+                                 <div class="ct-product-btn">
+                                     
+                                     <span>go to cart</span>
+                                     
+                                 </div>
+                              
+                                     
+                                 </div>
+                                 
+                             </div>
+                            </div> -->
+                            
+                            <a id="signIn"class="btnH my-acc" href="#my-form">Sign In</a>
+                            <div class="login-form">
+                                    <label for="Email">E-mail</label><br>
+                                    <input type="text" class="logMail"><br>
+                                    <label for="Password">Password</label><br>
+                                    <input type="password" class="logPassword"><br>
+                                    <a href="#" class="btnH loginBtn">Login</a>
+                                    
+                                  </div>
+                            <a id="log-in"class="btnH log-in" href="#">Log In</a>      
+                                  <div class="delete-account">
+                                        
+                                        <a href="#" class="btnH deleteBtn">Delete</a>
+                                        
+                                      </div>
+                            
+                            <div class="hidden">
+                                    <form action="get" id="my-form">
+                                            <legend>Sign in</legend>
+                                        
+                                            <label class="form-field" for="name">Name</label><br>
+                                            <input type="text" data-validation-rule="name" id="name"><br>
+                                        
+                                            <label class="form-field" for="age">Age</label><br>
+                                            <input type="text" id="age"><br>
+                                        
+                                            <!-- <label class="form-field" id="citiesField" for="cities">Your city</label><br> -->
+                                            <!-- <select name="cities" id="city"></select><br> -->
+                                        
+                                            <label class="form-field" for="email">E-mail</label><br>
+                                            <input type="text" data-validation-rule="email" id="email"><br>
+                                        
+                                            <label class="form-field" for="password">Password</label><br>
+                                            <input type="text" data-validation-rule="password" id="password"><br>
+                                        
+                                            <label class="form-field" for="phone">Phone number</label><br>
+                                            <input type="text" data-validation-rule="phone" id="phone"><br>
+                                        
+                                            <label class="form-field" for="comment">About you</label><br>
+                                            <textarea id="magnificText" name="comment" data-validation-rule="comment" id="comment" cols="41" rows="10"></textarea><br>
+                                        
+                                            <!-- <input type="submit" id="send" value="Send"> -->
+                                            <a href="#" id="send" class="footer__button">Send</a>
+                                          </form>
+                            </div>
+                        </div>
+        
+                    </div> <!--Container-header-flex-->
+                </header>
+       <nav class="container">
+            <ul class="nav-flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Man</a></li>
+                <li><a href="singlepage.html">Women</a>
+                
+                  <div class="mega-menu">
+                     
+                     <div class="triangle"></div>
+                     <div class="square"></div>
+                      
+                     <div class="mega-box">
+                         
+                          <h3>Women</h3>
+                      <ul class="mega-list">
+                          
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Tops</a></li>
+                          <li><a href="#">Sweaters/Knits</a></li>
+                          <li><a href="#">Jackets/Coats</a></li>
+                          <li><a href="#">Blazers</a></li>
+                          <li><a href="#">Denim</a></li>
+                          <li><a href="#">Leggings/Pants</a></li>
+                          <li><a href="#">Skirts/Shorts</a></li>
+                          <li><a href="#">Accessories </a></li>
+                          
+                      </ul>
+                         
+                     </div>
+                     
+                     <div class="mega-box">
+                         
+                          <h3>Women</h3>
+                      <ul class="mega-list">
+                          
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Tops</a></li>
+                          <li><a href="#">Sweaters/Knits</a></li>
+                          <li><a href="#">Jackets/Coats</a></li>
+<!--
+                          <li><a href="#">Blazers</a></li>
+                          <li><a href="#">Denim</a></li>
+                          <li><a href="#">Leggings/Pants</a></li>
+                          <li><a href="#">Skirts/Shorts</a></li>
+                          <li><a href="#">Accessories </a></li>
+-->
+                          
+                      </ul>
+                        
+                        <h3>Women</h3>
+                      <ul class="mega-list">
+                          
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Tops</a></li>
+                          <li><a href="#">Sweaters/Knits</a></li>
+                          
+                      </ul>
+                         
+                     </div>
+                     
+                     <div class="mega-box">
+                         
+                          <h3>Women</h3>
+                      <ul class="mega-list">
+                          
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Tops</a></li>
+                          <li><a href="#">Sweaters/Knits</a></li>
+                          <li><a href="#">Jackets/Coats</a></li>
+<!--
+                          <li><a href="#">Blazers</a></li>
+                          <li><a href="#">Denim</a></li>
+                          <li><a href="#">Leggings/Pants</a></li>
+                          <li><a href="#">Skirts/Shorts</a></li>
+                          <li><a href="#">Accessories </a></li>
+-->
+                          
+                      </ul>
+                         
+                         <a href="#" class="mega-list_image shadow-drop-2-center">
+                             
+                             <h2>Super <br> sale!</h2>
+                             
+                         </a>
+                         
+                     </div>
+                      
+                  </div>
+                
+                </li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Accoseriese</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Hot Deals</a></li>
+            </ul>
+        </nav>
+
+        <div class="new-arriwals">
+            <div class="container na-flex">
+                <h1>New arriwals</h1>
+
+                <nav class="na-right">
+
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">HOME</a> <span class="divider"></span></li>
+                        <li><a href="product.html">MEN</a> <span class="divider"></span></li>
+                        <li class="active">NEW ARRIWALS</li>
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="main-content container">
+
+            <nav class="main-content__left">
+
+                <details>
+                    <summary>category</summary>
+
+                    <ul>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Denim</a></li>
+                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                        <li><a href="#">Jackets & Coats</a></li>
+                        <li><a href="#">Pants</a></li>
+                        <li><a href="#">Polos</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Sweaters & Knits</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Tanks</a></li>
+
+                    </ul>
+
+                </details>
+
+                <details>
+
+                    <summary>brand</summary>
+
+                    <ul>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Denim</a></li>
+                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                        <li><a href="#">Jackets & Coats</a></li>
+                        <li><a href="#">Pants</a></li>
+                        <li><a href="#">Polos</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Sweaters & Knits</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Tanks</a></li>
+
+                    </ul>
+
+                </details>
+
+                <details>
+
+                    <summary>designer</summary>
+
+                    <ul>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Denim</a></li>
+                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                        <li><a href="#">Jackets & Coats</a></li>
+                        <li><a href="#">Pants</a></li>
+                        <li><a href="#">Polos</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Sweaters & Knits</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Tanks</a></li>
+
+                    </ul>
+
+                </details>
+
+            </nav>
+
+            <div class="main-content__right">
+
+                <nav class="right__header">
+
+                    <div class="right-header__main-content">
+
+                        <div class="right-header__left">
+
+                            <h2>Trending now</h2>
+
+
+                            <div class="right-header__left-text">
+
+                                <a href="#">Bohemian </a>
+                                <a href="#">Floral </a>
+                                <a class="link-without-border" href="#">Lace</a> <br>
+                                <a href="#">Floral </a>
+                                <a href="#">Lace </a>
+                                <a class="link-without-border" href="#">Bohemian</a>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="right-header__middle">
+
+                            <div class="middle-header">
+
+                                <h2>size</h2>
+
+                            </div>
+
+                            <div class="middle-table">
+
+                                <div class="middle-table__column">
+
+                                    <span><input type="checkbox">XXS</span>
+                                    <span><input type="checkbox">L</span>
+
+
+                                </div>
+
+                                <div class="middle-table__column">
+
+                                    <span><input type="checkbox">XS</span>
+                                    <span><input type="checkbox">XL</span>
+
+                                </div>
+
+                                <div class="middle-table__column">
+
+                                    <span><input type="checkbox">S</span>
+                                    <span><input type="checkbox">XXL</span>
+
+                                </div>
+
+                                <div class="middle-table__column">
+
+                                    <span><input type="checkbox">M</span>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="right-header__right">
+
+                            <h2>price</h2>
+                            <input class="right__range" type="range">
+
+                            <div class="right__text-bottom">
+
+                                <span>$52</span>
+                                <span>$400</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="right-header__footer">
+
+
+
+                        <a href="#" class="submit submit-left">Sort By</a>
+
+                        <select name="name">
+				<option>Name</option>
+				<option disabled>Name1</option>
+				<option >Name2</option>
+				<option >Name3</option>
+			</select>
+
+
+
+
+
+                        <a href="#" class="submit submit-right">Show</a>
+
+                        <select class="select-left" name="09">
+				<option>09</option>
+				<option disabled>10</option>
+				<option >11</option>
+				<option >12</option>
+			</select>
+
+
+
+                    </div>
+
+                </nav>
+
+                <div class="right-body__main-content">
+
+                    <div class="box-product">
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img1.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                </div>
+                                
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img2.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img3.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img4.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img5.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img6.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                       <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img7.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img8.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <a class="product-link" href="singlepage.html">
+                <img src="../img/product-img9.png" alt="product image">
+                <div class="product-text">
+                    <p>Mango  People  T-shirt</p>
+                    <span>$52.00</span>
+                    
+                    <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    
+                </div>
+            </a>
+                            <div class="box-center">
+                                <a class="add-to-cart" href="shoppingcart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</a>
+
+                                <div class="box-center-bottom">
+
+                                    <a class="link" href="shoppingcart.html">
+                                    <i class="fas fa-link"></i>
+                                </a>
+
+                                    <a class="like" href="shoppingcart.html"><i class="far fa-heart"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="right-body__footer">
+
+                    <nav class="footer__numbers">
+
+
+                        <a href="#"><i class="fas fa-angle-left"></i></a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">.....</a>
+                        <a href="#">20</a>
+                        <a href="#"><i class="fas fa-angle-right"></i></a>
+
+
+
+
+
+                    </nav>
+
+                    <a href="#" class="footer__button">
+                        
+                        View All 
+                        
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="product-banner">
+
+            <div class="product-banner__flex container">
+
+                <a href="#" class="product-banner__left product-unit">
+
+                    <div class="banner-img">
+                        <img src="../img/banner-pic1.png" alt="truck">
+                    </div>
+
+                    <h3>Free Delivery</h3>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+
+                </a>
+
+                <a href="#" class="product-banner__center product-unit">
+               
+                <img src="../img/banner-pic2.png" alt="percent">
+                
+                <h3>Sales & discounts</h3>
+               <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+               
+           </a>
+
+                <a href="#" class="product-banner__right product-unit">
+               
+                <img src="../img/banner-pic3.png" alt="king">
+                
+                <h3>Quality assurance</h3>
+               <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+               
+           </a>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="lining"></div>
+
+    <footer>
+
+            <div class="container footer-flex">
+    
+                <div class="subscribe-slider">
+    
+                    <div id="commentsList" class="sbs-slider-left">
+                        
+                        <!-- <div class="slider-left-wrap">
+                                <ul id="commentsList"></ul>
+                        </div> -->
+                            
+                        
+                       <!-- <div id="testCarousel" class="carousel slide" data-ride="carousel">
+                       
+                        <ol class="carousel-indicators">
+        <li class="indicators" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+                       
+        
+        <div class="carousel-inner" id="">
+            
+            <div class="item active">
+                
+                <div class="slider-left-wrap">
+                    
+                    <div class="face-img"></div>
+    
+                            <div class="subscribe-text">
+                                <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+    
+                                <div class="sbs">
+                                    <span class="sbs-header">Bin Burhan</span>
+                                    <span class="subscribe-sbs">Dhaka, Bd</span>
+                                </div>
+    
+                            </div>
+            </div>
+                    
+                </div>
+                
+            
+            <div class="item">
+                
+                <div class="slider-left-wrap">
+                    
+                    <div class="face-img"></div>
+    
+                            <div class="subscribe-text">
+                                <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+    
+                                <div class="sbs">
+                                    <span class="sbs-header">Bin Burhan</span>
+                                    <span class="subscribe-sbs">Dhaka, Bd</span>
+                                </div>
+    
+                            </div>
+            </div>
+                
+            </div>
+            
+            <div class="item">
+                
+                    <div class="slider-left-wrap">
+                    
+                    <div class="face-img"></div>
+    
+                            <div class="subscribe-text">
+                                <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+    
+                                <div class="sbs">
+                                    <span class="sbs-header">Bin Burhan</span>
+                                    <span class="subscribe-sbs">Dhaka, Bd</span>
+                                </div>
+    
+                            </div>
+            </div>
+                
+            </div>
+        </div>
+    
+        <a class="left carousel-control" href="#testCarousel" role="button" data-slide="prev">
+    </a>
+        <a class="right carousel-control" href="#testCarousel" role="button" data-slide="next">
+    </a>
+    </div> -->
+    
+        <div id="slider" class="reviews">
+            
+         </div>
+    
+                    </div>
+    
+                    <div class="sbs-slider-right">
+    
+                        <div class="sbs-slider-right-content">
+    
+                            <h3 class="sbs-right-header">If you like the good</h3>
+                            <span class="sbs-right-text">PLEASE WRITE A REVIEW</span>
+    
+                            <form class="form-inline">
+                                <div class="form-group">
+    
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label for="inputPassword2" class="sr-only">Enter Your Email</label>
+                                    <textarea class="e-field" placeholder="Write Here">
+                                </div> -->
+                                <textarea id="message" class="e-field" placeholder="Write Here"></textarea>
+                                <!-- <button id="send" type="submit" class="slider-btn">SEND</button> -->
+                                <a href="#" id="send-review" class="slider-btn">SEND</a>
+                            </form>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="footer-middle">
+    
+                    <div class="footer-text">
+    
+                        <a href="index.html" class="logo"><img src="../img/logo.png" alt="logo"><span>BRAN<span>D</span></span></a>
+    
+                        <p>
+                            Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. <br><br>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+    
+                        </p>
+    
+                    </div>
+    
+                    <nav class="nav-footer-flex">
+    
+                        <div class="footer-nav">
+    
+                            <h3>COMPANY</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="product.html">Shop</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">How It Works</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+    
+                        </div>
+    
+                        <div class="footer-nav">
+    
+                            <h3>INFORMATION</h3>
+                            <ul>
+                                <li><a href="#">Tearms & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">How to Buy</a></li>
+                                <li><a href="#">How to Sell</a></li>
+                                <li><a href="#">Promotion</a></li>
+                            </ul>
+    
+                        </div>
+    
+                        <div class="footer-nav">
+    
+                            <h3>SHOP CATEGORY</h3>
+                            <ul>
+                                <li><a href="product.html">Men</a></li>
+                                <li><a href="singlepage.html">Women</a></li>
+                                <li><a href="#">Child</a></li>
+                                <li><a href="#">Apparel</a></li>
+                                <li><a href="#">Brows All</a></li>
+                            </ul>
+    
+                        </div>
+    
+                    </nav>
+    
+                </div>
+    
+            </div>
+    
+        </footer>
+    <div class="footer-social">
+
+        <div class="footer-social-wrap">
+
+            <p class="f-social-subscribe">
+                &#169 2018 Brand All Rights Reserved.
+            </p>
+
+            <div class="social-icon">
+
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i>
+         </a> <a href="https://twitter.com/?lang=ru" target="_blank"><i class="fab fa-twitter-square"></i>
+   </a> <a href="https://ru.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i>
+         </a> <a href="https://ru.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square"></i>
+ </a> <a href="https://plus.google.com/discover?hl=ru" target="_blank"><i class="fab fa-google-plus-square"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

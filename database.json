@@ -1,0 +1,45 @@
+{
+    "goods": [
+        {
+            "id": 1,
+            "name": "Mango people t-shirt",
+            "price": 52
+        },
+        {
+            "id": 2,
+            "name": "Mango people t-shirt",
+            "price": 52
+        },
+        {
+            "id": 3,
+            "name": "Mango people t-shirt",
+            "price": 52
+        },
+        {
+            "id": 4,
+            "name": "Mango people t-shirt",
+            "price": 52
+        },
+        {
+            "id": 5,
+            "name": "Mango people t-shirt",
+            "price": 52
+        },
+        {
+            "id": 6,
+            "name": "Mango people t-shirt",
+            "price": 52
+        },
+        {
+            "id": 7,
+            "name": "Mango people t-shirt",
+            "price": 52
+        },
+        {
+            "id": 8,
+            "name": "Mango people t-shirt",
+            "price": 52
+        }
+    ],
+    "cart": []
+}
